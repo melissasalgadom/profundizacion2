@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id='estacion_estacion_view_tree' model='ir.ui.view'>
+        <field name="name">estacion.estacion.tree</field>
+        <field name="model">estacion.estacion</field>
+        <field name="arch" type="xml">
+            <tree string="Estaciones">
+                <field name="name" />
+                <field name="serial" />
+                <field name="latitud" />
+                <field name="longitud" />
+                <field name="cliente_id" />
+            </tree>
+        </field>
+    </record>
+
+<record id='estacion_estacion_action' model='ir.actions.act_window'>
+        <field name="name">Estacion</field>
+        <field name="res_model">estacion.estacion</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,pivot,graph</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Crear una estacion
+          </p>
+        </field>
+    </record>
+</odoo>

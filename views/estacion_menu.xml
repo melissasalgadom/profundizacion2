@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem name="Estacion Metereologica" id="estacionmetereologica" sequence="10" web_icon="gotagota,static/description/icon.png"/>
+
+    <menuitem name="Opciones" parent="estacionmetereologica" id="estacion_opciones" sequence="10" />
+
+    <menuitem action="estacion_estacion_action" parent="estacion_opciones" id="estacion_opciones_estacion" sequence="10"/>
+
+    <menuitem action="estacion_eventos_action" parent="estacion_opciones" id="estacion_opciones_eventos" sequence="10"/>
+
+    <menuitem action="estacion_clientes_action" parent="estacion_opciones" id="estacion_opciones_clientes" sequence="10"/>
+
+</odoo>

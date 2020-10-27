@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id='estacion_eventos_view_tree' model='ir.ui.view'>
+        <field name="name">estacion.eventos.tree</field>
+        <field name="model">estacion.eventos</field>
+        <field name="arch" type="xml">
+            <tree string="Eventos">
+                <field name="name" />
+                <field name="pluviosidad" />
+                <field name="fecha_creacion" />
+                <field name="estacion_id" />
+            </tree>
+        </field>
+    </record>
+como subir un proyecto a github
+
+    <record id='estacion_eventos_action' model='ir.actions.act_window'>
+        <field name="name">Eventos</field>
+        <field name="res_model">estacion.eventos</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form,pivot,graph</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Crear un evento
+          </p>
+        </field>
+    </record>
+</odoo>
