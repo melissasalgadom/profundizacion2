@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b59bfafc-7173-4003-b27c-92bf33120af6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/estacion_clientes.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/estacion_clientes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/estacion_eventos.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/estacion_eventos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/estacion_eventos_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/estacion_eventos_view.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

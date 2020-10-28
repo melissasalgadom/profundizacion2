@@ -7,7 +7,8 @@
         <field name="arch" type="xml">
             <tree string="Eventos">
                 <field name="name" />
-                <field name="pluviosidad" />
+                <field name="sensor1" />
+                <field name="sensor2" />
                 <field name="fecha_creacion" />
                 <field name="estacion_id" />
             </tree>
