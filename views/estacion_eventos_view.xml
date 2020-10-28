@@ -13,7 +13,6 @@
             </tree>
         </field>
     </record>
-como subir un proyecto a github
 
     <record id='estacion_eventos_action' model='ir.actions.act_window'>
         <field name="name">Eventos</field>
