@@ -11,6 +11,7 @@
                 <field name="latitud" />
                 <field name="longitud" />
                 <field name="cliente_id" />
+                <field name="blacklist" />
             </tree>
         </field>
     </record>
