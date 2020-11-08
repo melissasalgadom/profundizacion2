@@ -39,7 +39,8 @@ class Estacion(models.Model):
         payload = {"enable": dato}
         datajson = json.dumps(payload)
         _logger.info(payload)
-        response = requests.request("POST", url, headers=headers, data=datajson)
+        #response = requests.request("POST", url, headers=headers, data=datajson)
+        response = requests.post(url, data=json.dumps(payload), headers=headers)
         _logger.info(response)
 
 
